@@ -10,7 +10,8 @@ ReactDOM.render(
   <Router basename={process.env.PUBLIC_URL}>
     <App />
   </Router>,
-  document.getElementById(‘root’));
+  document.getElementById('root')
+);
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 
